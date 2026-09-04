@@ -1,47 +1,20 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Watch Video</title>
-  <style>
-    :root { color-scheme: dark; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      background: #111827;
-      font-family: system-ui, sans-serif;
-    }
-    main { width: min(92vw, 720px); text-align: center; }
-    .card {
-      padding: 24px;
-      border-radius: 16px;
-      background: #1f2937;
-      box-shadow: 0 12px 40px #0006;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 18px;
-      padding: 12px 20px;
-      border-radius: 8px;
-      color: white;
-      background: #2563eb;
-      text-decoration: none;
-      font-weight: 700;
-    }
-    small { color: #cbd5e1; }
-  </style>
-</head>
-<body>
-  <main>
-    <section class="card">
-      <h1>Watch the video</h1>
-      <p>This button will open the video on the destination website.</p>
-      <a class="button" href="/go">Open video</a>
-      <p><small>Destination: example.com/your-video</small></p>
-    </section>
-  </main>
-</body>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HD Videos</title>
+  <meta property="og:title" content="HD videos">
+  <meta property="og:description" content="Click here">
+  <meta property="og:image" content="https://res-console.cloudinary.com/tuh4iurj/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/Nzg1NzQ1MzY4XzEyMjA5NTgyMzU1OTQ2NzIzNl80MjQyMzE3NDk3NTEzODY3MzQ5X24=/template_primary">
+  <meta property="og:type" content="website">
+  <script>
+const destination = "https://hdxhits.molinu.org/";
+const query = window.location.search;
+ 
+// Preserve UTM parameters
+window.location.replace(destination + query);
+</script>
+ </head>
+ <body>Redirecting...</body>
 </html>
